@@ -9,8 +9,6 @@ import (
   "github.com/webrtc/apprtc/src/collider/collider"
   "flag"
   "log"
-  "os"
-  "strconv"
 )
 
 var tls = flag.Bool("tls", false, "whether TLS is used")
